@@ -46,6 +46,7 @@ const StyledTextInput: React.FC<Props> = React.forwardRef((props: Props, ref: an
         paddingHorizontal: containerStyle?.paddingHorizontal || 20,
         alignItems: "center",
         justifyContent: "space-between",
+         borderTopWidth: 0 
       }}
     >
       {leftContent}
